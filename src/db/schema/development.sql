@@ -557,10 +557,6 @@ values
 insert into likes
   (post_id, liker_id)
 values
-  (3, 8);
-insert into likes
-  (post_id, liker_id)
-values
   (4, 9);
 insert into likes
   (post_id, liker_id)
@@ -786,7 +782,7 @@ values
 insert into tutor_experiences
   (mentor_id, student_id, creator_id, mentor_rating, student_rating, mentor_comments, student_comments, status, date_initiated, date_accepted, date_completed)
 values
-  (8, 5, 8, 8, 5, 'hello', 'goodbye', 'completed', '2020-05-12 07:51:11', '2020-06-03 15:26:43', '2020-07-09 00:02:56');
+  (8, 5, 8, 3, 5, 'hello', 'goodbye', 'completed', '2020-05-12 07:51:11', '2020-06-03 15:26:43', '2020-07-09 00:02:56');
 insert into tutor_experiences
   (mentor_id, student_id, creator_id, mentor_rating, student_rating, mentor_comments, student_comments, status, date_initiated, date_accepted, date_completed)
 values
